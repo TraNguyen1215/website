@@ -1,0 +1,636 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/IMG/vietnam-1531072_1920.jpg);
+    background-size: 100%;
+    background-attachment:fixed ;
+}
+footer{
+    background-color: #6b6a6e99;
+    box-shadow:0px 0px 20px 2px #000000cc;
+}
+/* ---------------------------Boostrap css--------------------------------------- */
+.container{
+    max-width: 1440px;
+    padding: 0;
+}
+.row{
+    padding: 0px;
+    margin: 0px;
+}
+/* -------------------------------Menu--------------------------------- */
+header{
+    max-width: 1440px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.logoACC{
+    margin-left: 50;
+    width: 100px;
+}
+#menu_short{
+    display: none;
+}
+.list_nav_item{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+.list_nav_item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav_item{
+    list-style-type: none;
+    padding-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav_item{
+    padding: 5px 10px;
+    border-radius: 17px;
+}
+
+#nav_item:hover{
+    background-color: #ffffff;
+    color: black;
+}
+/* --------------------------header News------------------------- */
+.news{
+    width: 85%;
+    margin: auto;
+    padding-bottom: 22px;
+}
+
+.slogan{
+    color: #38b54d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px #0f3001;
+    padding-bottom: 10px;
+}
+
+.full_content{
+    background-color: white;
+    border: 1px solid;
+    box-shadow:0px -5px 20px 2px rgba(0,0,0,0.8);
+}
+.news section .col-5 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    margin: 10px auto;
+}
+.news section .col-5{
+    padding-left: 20px;
+    text-align: justify;
+    color: white;
+    align-items: center;
+}
+.news section .col-7 img{
+    border-radius: 10px;
+}
+.news section .col-5 article{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #252320;
+    padding: 20px;
+    border-radius: 10px;
+}
+#respon_content{
+    display: none;
+}
+/*------------------Nội dung chính-----------------------*/
+.content{
+    padding: 20px 80px 20px 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_news{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #ae8e5e;
+    padding-left: 110px ;
+    width: 60%;
+    padding-top: 20px;
+}
+.nav_news a{
+    color: #ae8e5e;
+    text-decoration: none;
+}
+hr{
+    border-color: #a5947a;
+}
+.title_left_news{
+    color: #494949;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+    text-align: left;
+}
+.title_right_news{
+    color: #494949;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+    text-decoration: underline;
+    text-align: right;
+}
+.content .row .col-3{
+    padding: 0px 7px 0px 7px;
+}
+.img_moi_nhat{
+    width: 100%;
+}
+.col-3 .img_col_3{
+    width: 100%;
+    height: 170px;
+    border-radius: 7px;
+}
+.col-3 .content_article{
+    margin: 10px 0px 10px 0px;
+    color: black;
+    text-align: justify;
+    font-size: 16px;
+}
+.p_title{
+    padding: 10px 0px 10px 0px;
+    font-weight: 700;
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+    text-decoration: none;
+} 
+.p_title a{
+    color: black;
+    text-decoration: none;
+}
+.p_title a:hover{
+    color: #906b34;
+}
+.p_small{
+    text-align: right;
+    font-weight: bold;
+}
+#respon_content{
+    display: none;
+}
+.bottom_news{
+    display: flex;
+    background-color: #675e51;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.left_bottom_news{
+    display: flex;
+    width: 30%;
+    margin: 15px;
+}
+
+.mid_bottom_news{
+    display: flex;
+    width: 30%;
+    margin: 15px;
+}
+
+.right_bottom_news{
+    display: flex;
+    width: 30%;
+    margin: 15px;
+}
+.left_bottom_news img{
+    width: 120px;
+}
+.mid_bottom_news img{
+    width: 120px;
+}
+.right_bottom_news img{
+    width: 120px;
+}
+.p_bottom_news{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* ------------------------------footer----------------------------- */
+.footer{
+    text-align: right;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px 20px;
+}
+
+.top_list_footer{
+    display: flex;
+    justify-content: center;
+}
+
+.top_list_footer_item{
+    list-style-type: none;
+    padding-left: 0;
+    margin-right: 30px;
+    color: #ffffff;
+    font-family: "VNF-Futura", Helvetica, Arial, sans-serif;
+    border-bottom: 1px solid #ffffff;
+    font-size: 20px;
+}
+
+.bottom_list_footer{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 0px 0px;
+    font-size: 19px;
+}
+
+.bottom_list_footer_item{
+    list-style-type: none;
+    padding-left: 0;
+    margin-right: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "VNF-Futura", Helvetica, Arial, sans-serif;
+    border-bottom: 1px solid #ffffff;
+}
+
+.paragraph_footer{
+    text-align: center;
+    margin: 30px;
+    font-size: 16px;
+    color: white;
+}
+
+/* --------------------------------responsive-------------------------------------- */
+@media screen and (max-width:990px) {
+    .list_nav_item {
+        display: flex;
+        gap: 20px;
+        font-size: 16px;
+        padding: 20px 0px;
+    }
+    .news{
+        width: 80%;
+    }
+    #menu_short{
+        display: none;
+    }
+    .slogan{
+        font-size: 40px;
+    }
+    .news section .col-5 h1{
+        font-size: 24px;
+        margin-top: 0px;
+    }
+    .news section .col-5{
+        padding-left: 0px;
+    }
+    .news section .col-5 article{
+        font-size: 16px;
+    }
+    .container{
+        margin: 0 auto;
+    }
+    nav{
+        background-color: rgba(0, 0, 0, 0.422);
+        max-width: 100%;
+        margin-top: 0px;
+    }
+    #respon_content_full{
+        display: none;
+    }
+    #respon_content{
+    display:list-item;   
+    }
+    .content{
+        padding: 20px 70px;
+    }
+    .content .row .col-3{
+        width: 33.3333333333%;
+    
+    }
+    .left_bottom_news{
+        width: 50%;
+    }
+    .left_bottom_news img{
+        width: 140px;
+    }
+    .mid_bottom_news img{
+        width: 140px;
+    }
+    .mid_bottom_news{
+        width: 50%;
+    }
+    .right_bottom_news{
+        display:none;
+    }
+}
+/*  */
+@media screen and (max-width:850px) {
+    .container{
+        margin: 0 auto;
+    }
+    nav{
+        background-color: #0000006c;
+        width: 100%;
+        margin-top: 0px;
+        justify-content: space-between;
+    }
+    .logoACC{
+        width: 80px;
+        margin: 0px 10px;
+    }
+    #menu_short{
+        display: contents;   
+    }
+    #menu_short ul{
+        margin: 20px;
+        font-size: 40px;
+    }  
+    #menu_full{
+        display: none;
+    }
+    .news{
+        width: 80%;
+    }
+    .slogan{
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .news section .col-5 h1{
+        font-size: 24px;
+        margin: 5px 0px;
+    }
+    .news section .col-5 article{
+        font-size: 16px;
+    }
+    #respon_content_full{
+        display: none;
+    }
+    #respon_content{
+        display:none;   
+    }
+    .content{
+        padding: 20px 50px;
+    }
+    .content .row .col-3{
+        width: 33.3333333333%;
+    }
+    .left_bottom_news{
+        width: 50%;
+    }
+    .left_bottom_news img{
+        width: 120px;
+    }
+    .mid_bottom_news img{
+        width: 120px;
+    }
+    .mid_bottom_news{
+        width: 50%;
+    }
+    .right_bottom_news{
+        display:none;
+    }
+}
+
+/*  */
+@media screen and (max-width:768px) {
+    .container{
+        margin: 0 auto;
+    }
+    nav{
+        background-color: #0000006c;
+        width: 100%;
+        margin-top: 0px;
+        justify-content: space-between;
+    }
+    .logoACC{
+        width: 80px;
+        margin: 0px 10px;
+    }
+    #menu_short{
+        display: contents;   
+    }
+    #menu_short ul{
+        margin: 20px;
+        font-size: 40px;
+    }  
+    #menu_full{
+        display: none;
+    }
+    .news{
+        width: 90%;
+    }
+    .slogan{
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .news section .col-5 h1{
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    .news section .col-5{
+        padding-left: 0px;
+    }
+    #respon_content_full{
+        display: none;
+    }
+    #respon_content{
+        display:none;   
+    }
+    .col-12 .row .col-8{
+        width: 100%;
+    }
+    .col-12 .row .col-8 article{
+        font-size: 16px;
+        text-align: justify;
+        padding-right: 5px;
+    }
+    .col-12 .row .col-4{
+        width: 100%;
+        display:inline-flex;
+        margin: 15px 0px 0px;
+        padding: 0px;
+    }
+    .col-12 .row .col-4 section{
+        width: 45%;
+        margin:0px auto;
+    }
+    .content{
+        padding: 20px 30px;
+    }
+    .content .row .col-3{
+        width: 50%;
+    }
+    .left_bottom_news{
+        width: 50%;
+    }
+    .left_bottom_news img{
+        width: 120px;
+    }
+    .mid_bottom_news img{
+        width: 120px;
+    }
+    .mid_bottom_news{
+        width: 50%;
+    }
+    .right_bottom_news{
+        display:none;
+    }
+    .col-3 .img_col_3{
+        height: 200px;
+    }
+}
+/*  */
+@media screen and (max-width:414px) {
+    body .container{
+        margin: 0 auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .full_content{
+        border: 0px;
+    }
+    .full_content .row{
+        margin:auto 0px;
+    }
+    nav{
+        background-color: #0000006c;
+        width: 100%;
+        margin-top: 0px;
+        justify-content: space-between;
+    }
+    .logoACC{
+        width: 50px;
+        height: 50px;
+        margin: 0px 10px;
+    }
+    #menu_short{
+        display: contents;   
+    }
+    #menu_short ul{
+        margin: 20px;
+        font-size: 20px;
+    }  
+    #menu_full{
+        display: none;
+    }
+    .news{
+        width: 80%;
+    }
+    .slogan{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .news section .col-7{
+        width: 100%;
+    }
+    .news section .col-5 h1{
+        font-size: 16px;
+        margin: 5px 0px;
+        width: 100%;
+    }
+    .news section .col-5{
+        padding-left: 14px;
+        width: 100%;
+    }
+    #respon_content_full{
+        display: none;
+    }
+    #respon_content{
+        display:none;   
+    }
+    .img_moi_nhat{
+        width: 100%;
+        border-radius: 7px;
+    }
+    .col-12 .row .col-8 article{
+        font-size: 16px;
+        text-align: justify;
+        padding-right: 5px;
+    }
+    .col-12 .row .col-4{
+        width: 100%;
+        margin: 15px 0px 0px;
+        display: inline;
+        padding: 0px;
+    }
+    .col-12 .row .col-4 section{
+        width: 100%;
+        margin:0px auto;
+    }
+    .row .col-12{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .col-12 .row .col-8{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .content{
+        padding: 20px 20px;
+    }
+    .content .row .col-3{
+        width: 50%;
+    }
+    .p_bottom_news{
+        text-align: center;
+    }
+    .left_bottom_news{
+        width: 100%;
+    }
+    .left_bottom_news img{
+        width: 140px;
+    }
+    .mid_bottom_news{
+        display: none;
+    }
+    .right_bottom_news{
+        display:none;
+    }
+    .col-3 .img_col_3{
+        height: 250px;
+    }
+    .top_list_footer{
+        padding-left: 20px;
+    }
+    .top_list_footer_item {
+        padding-left: 0;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    .bottom_list_footer{
+        justify-content: left;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .bottom_list_footer_item {
+        text-align: justify;
+        margin-right: 40px;
+    }
+    .paragraph_footer{
+        text-align: justify;
+    }
+    .content .row .col-3{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
